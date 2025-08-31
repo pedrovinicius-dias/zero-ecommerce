@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras | Zero E-commerce</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Zero E-commerce Logo" class="logo">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cart-page.html">Carrinho</a></li>
+                <li><a href="product-page.html">Produtos</a></li>
+                <li><a href="about.html">Sobre Nós</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <a href="cart-page.html"></a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <h1>Seu Carrinho de Compras</h1>
+
+        <section class="cart-section">
+            <div id="cart-container">
+                <p id="empty-cart-message" style="text-align: center;">Seu carrinho está vazio.</p>
+            </div>
+
+            <div class="cart-summary">
+                <h2>Resumo do Pedido</h2>
+                <div class="summary-details">
+                    <p>Subtotal: <span id="cart-subtotal">R$ 0,00</span></p>
+                    <p>Frete: <span id="cart-shipping">R$ 0,00</span></p>
+                    <h3>Total: <span id="cart-total">R$ 0,00</span></h3>
+                </div>
+                <button id="checkout-button">Finalizar Compra</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Zero E-commerce. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
